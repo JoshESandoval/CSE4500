@@ -11,9 +11,11 @@
   <body data-bs-spy="scroll" data-bs-target="#navbar-example3" style="position-relative">
     <div class="left-nav">
       <nav id="navbar-example3" class="navbar vertival-center flex-column center">
-        <a class="nav-link" href="#about">About</a>
-        <a class="nav-link" href="experiencce"><Experience</a>
-      </nav>
+        <nav class="nav flex-column">
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="experiencce"><Experience</a>
+        </nav>
+      </nav>    
     </div>
     
     <div id="about">  
