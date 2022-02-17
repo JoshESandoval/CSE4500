@@ -9,11 +9,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
   <body>
+    <div class="left-nav">
+      <nav id="navbar-example3" class="navbar vertival-center flex-column center">
+        <a class="nav-link" href="#about">About</a>
+    </div>
     
-    <h1><?php echo $json_data['first-name']; echo ' '; echo $json_data['last-name']; ?></h1>
-    <span> <?php echo $json_data['address']; ?></span>
-    <span> <?php echo $json_data['phone'];   ?></span>
- 
+    <div id="about">  
+      <h1 ><?php echo $json_data['first-name']; echo ' '; echo $json_data['last-name']; ?></h1>
+      <span> <?php echo $json_data['address']; ?></span>
+      <span> <?php echo $json_data['phone'];   ?></span>
+    </div>
     <?php
       foreach($json_data['experience'] AS $experience){?>
         <div class = "d-flex flex-column flex-md-row justify-content-between mb-5">
