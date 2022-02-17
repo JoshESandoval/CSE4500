@@ -18,6 +18,7 @@
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#education">Education</a>
           <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#github">Github</a>
         </nav>
       </nav>    
     </div>
@@ -68,7 +69,15 @@
           <?php } ?>
         </div>
       </div>
+      <hr>
       
+      <!-- Github -->
+      </div id="github" class="content-view">
+        <div class = "vertical-center">
+          <h1>Github Link</h1>
+            <p href=<?php echo $json_data['github']; ?>>Repo for this class </p>  
+        </div>
+      </div>
     </div>
     
     
