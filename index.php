@@ -8,7 +8,7 @@
     <title>My Resume</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example3" style="position-relative">
     <div class="left-nav">
       <nav id="navbar-example3" class="navbar vertival-center flex-column center">
         <a class="nav-link" href="#about">About</a>
