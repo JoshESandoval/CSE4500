@@ -34,6 +34,7 @@
           <h1 ><?php echo $json_data['first-name']; echo ' '; echo $json_data['last-name']; ?></h1>
           <span> <?php echo $json_data['address']; ?></span>
           <span> <?php echo $json_data['phone'];   ?></span>
+          <p>    <?php echo $json_data['intro'];   ?></p>
         </div>
       </div>
       <hr>
@@ -42,6 +43,7 @@
       <div id="education" class="content-item">
         <div class="vertical-center">
           <h1>Education</h1>
+          <p>In progress</p>
         </div>
       </div>
       <hr>
@@ -49,7 +51,6 @@
       <!--Start of experience -->
       <div id="experience" class="content-item">
         <div class="vertical-center">
-          <h2>Experience</h2>
           <?php
           foreach($json_data['experience'] AS $experience){?>
           
@@ -64,10 +65,13 @@
                 <span class = "text-primary"><?php echo $experience['period']; ?></span>
               </div>
             </div>
-          </div>
-        <?php } ?>
+          <?php } ?>
+        </div>
       </div>
+      
     </div>
+    
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
   </body>
