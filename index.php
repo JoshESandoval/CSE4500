@@ -13,7 +13,7 @@
       <nav id="navbar-example3" class="navbar vertival-center flex-column center">
         <nav class="nav flex-column">
           <a class="nav-link" href="#about">About</a>
-          <a class="nav-link" href="experiencce"><Experience</a>
+          <a class="nav-link" href="experiencce">Experience</a>
         </nav>
       </nav>    
     </div>
