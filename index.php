@@ -4,7 +4,7 @@
   
  ?>
   
- <h1><?php echo { $json_data['first-name'] + ' ' + $json_data['last-name']}; ?></h1>
+ <h1><?php echo ($json_data['first-name'] + ' ' + $json_data['last-name']); ?></h1>
  <p> <?php echo $json_data['address'] ?></p>
  <p> <?php echo $json_data['phone']   ?></p>
  
