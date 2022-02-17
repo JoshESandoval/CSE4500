@@ -15,10 +15,14 @@
       <nav id="navbar-example3" class="navbar vertical-center flex-column center">
         <nav class="nav flex-column">
           <a class="nav-link" href="#about">About</a>
-          <a class="nav-link" href="experiencce">Experience</a>
+          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" href="#experience">Experience</a>
         </nav>
       </nav>    
     </div>
+    
+    
+
     
     <!--Begining of Main Body -->
     <div data-bs-offset="0" tabindex="0">
@@ -29,6 +33,16 @@
           <h1 ><?php echo $json_data['first-name']; echo ' '; echo $json_data['last-name']; ?></h1>
           <span> <?php echo $json_data['address']; ?></span>
           <span> <?php echo $json_data['phone'];   ?></span>
+        </div>
+      </div>
+      <hr>
+      
+      <!--Begining of Main Body -->
+      <div data-bs-offset="0" tabindex="0" >
+        <div id="#education" class="content-item">
+          <div class="vertical-center">
+            <h1>Education</h1>
+          </div>
         </div>
       </div>
       <hr>
