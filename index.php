@@ -18,12 +18,12 @@
       </nav>    
     </div>
     
-    <div id="about">  
+    <div id="about" class="vertical-canter">  
       <h1 ><?php echo $json_data['first-name']; echo ' '; echo $json_data['last-name']; ?></h1>
       <span> <?php echo $json_data['address']; ?></span>
       <span> <?php echo $json_data['phone'];   ?></span>
     </div>
-    <div id="experience">
+    <div id="experience" class="vertical-center">
       <?php
         foreach($json_data['experience'] AS $experience){?>
           <div class = "d-flex flex-column flex-md-row justify-content-between mb-5">
