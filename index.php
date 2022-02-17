@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
 
-  <body data-bs-spy="scroll" data-bs-target="#navbar-example3" style="position-relative">
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example3" style="position:relative">
     <!-- Navigation Panel -->
     <div class="left-nav">
       <nav id="navbar-example3" class="navbar vertical-center flex-column center">
