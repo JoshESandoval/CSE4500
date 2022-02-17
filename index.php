@@ -75,7 +75,7 @@
       </div id="github" class="content-view">
         <div class = "vertical-center">
           <h1>Github Link</h1>
-            <p href=<?php echo $json_data['github']; ?>>Repo for this class </p>  
+            <p href= <?php $json_data['github']; ?> >Repo for this class </p>  
         </div>
       </div>
     </div>
