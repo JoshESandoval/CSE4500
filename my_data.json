@@ -2,9 +2,9 @@
   "first-name" : "Joshua",
   "last-name"  : "Sandoval",
   "address"    : "5500 University Prky, San Bernardino, CA 92407",
-  "phone"       : "(909) 420- 6969",
-  "email"      : "Joshua.45.sandoval@gmail.com",
-  "intro"      : "Game Developer who wants to make games that make you want to question reality with the most random of games",
+  "phone"       : "(909) 867-5309",
+  "email"      : "Joshua.45.Sandoval@gmail.com",
+  "intro"      : "Game Developer who wants to make games that make you want to question reality with the most random of fun",
   "experience" : [
    {
       "title"       : "Game Developer",
@@ -14,7 +14,7 @@
    },
    {
       "title"       : "Web Developer",
-      "employer"    : "Myself but might fire soon",
+      "employer"    : "Myself, but might keep this time",
       "period"      : "November 2020 - Present",
       "description" : "Created a program for work (for me really) that takes the tips earned throughout the day and splits them up relative to the amount of hours worked. Unable to save to data accross internet but meant to be used like a one purpouse calculator."
    }]
