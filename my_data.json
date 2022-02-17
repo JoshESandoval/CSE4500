@@ -2,9 +2,10 @@
   "first-name" : "Joshua",
   "last-name"  : "Sandoval",
   "address"    : "5500 University Prky, San Bernardino, CA 92407",
-  "phone"       : "(909) 867-5309",
+  "phone"      : "(909) 867-5309",
   "email"      : "Joshua.45.Sandoval@gmail.com",
   "intro"      : "Game Developer who wants to make games that make you want to question reality with the most random of fun",
+  "github"     : "https://github.com/JoshESandoval/CSE4500/edit/main/my_data.json",
   "experience" : [
    {
       "title"       : "Game Developer",
