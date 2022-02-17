@@ -10,6 +10,7 @@
   </head>
 
   <body data-bs-spy="scroll" data-bs-target="#navbar-example3" style="position-relative">
+    <!-- Navigation Panel -->
     <div class="left-nav">
       <nav id="navbar-example3" class="navbar vertical-center flex-column center">
         <nav class="nav flex-column">
@@ -19,8 +20,10 @@
       </nav>    
     </div>
     
+    <!--Begining of Main Body -->
     <div data-bs-offset="0" tabindex="0">
       
+      <!--start of about -->
       <div id="about" class="content-item">
         <div class="vertical-center">  
           <h1 ><?php echo $json_data['first-name']; echo ' '; echo $json_data['last-name']; ?></h1>
@@ -28,10 +31,16 @@
           <span> <?php echo $json_data['phone'];   ?></span>
         </div>
       </div>
+      <hr>
+      
+      <!--Start of experience -->
       <div id="experience" class="content-item">
         <div class="vertical-center">
+          <h2>Experience</h2>
           <?php
           foreach($json_data['experience'] AS $experience){?>
+          
+            <!--Sub-heading of experience -->
             <div class = "d-flex flex-column flex-md-row justify-content-between mb-5">
               <div class = "flex-grow-1">
                 <h3 class = "mb-0"><?php echo $experience['title']; ?></h3>
@@ -42,7 +51,7 @@
                 <span class = "text-primary"><?php echo $experience['period']; ?></span>
               </div>
             </div>
-        </div>
+          </div>
         <?php } ?>
       </div>
     </div>
