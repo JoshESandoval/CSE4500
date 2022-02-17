@@ -22,7 +22,7 @@
     <div data-bs-offset="0" tabindex="0">
       
       <div id="about" class="content-item">
-        <div class="vertical-canter">  
+        <div class="vertical-center">  
           <h1 ><?php echo $json_data['first-name']; echo ' '; echo $json_data['last-name']; ?></h1>
           <span> <?php echo $json_data['address']; ?></span>
           <span> <?php echo $json_data['phone'];   ?></span>
