@@ -12,7 +12,7 @@
 
   <body data-bs-spy="scroll" data-bs-target="#navbar-example3" style="position:relative">
     <!-- Navigation Panel -->
-    <div class="left-nav"  style="position:fixed; width:10%;">
+    <div class="left-nav" >
       <nav id="navbar-example3" class="navbar vertical-center flex-column center">
         <nav class="nav flex-column">
           <a class="nav-link" href="#about">About</a>
