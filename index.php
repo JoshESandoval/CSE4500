@@ -37,12 +37,10 @@
       </div>
       <hr>
       
-      <!--Begining of Main Body -->
-      <div data-bs-offset="0" tabindex="0" >
-        <div id="#education" class="content-item">
-          <div class="vertical-center">
-            <h1>Education</h1>
-          </div>
+      <!--Begining of education -->
+      <div id="education" class="content-item">
+        <div class="vertical-center">
+          <h1>Education</h1>
         </div>
       </div>
       <hr>
