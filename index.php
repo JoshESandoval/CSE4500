@@ -76,7 +76,7 @@
         <div class = "vertical-center">
           <h1>Github Link</h1>
             <div>
-              <link href="https://github.com/JoshESandoval/CSE4500/edit/main/index.php">Link to Github Repo for class</link>
+              <a href="https://github.com/JoshESandoval/CSE4500/edit/main/index.php">Link to Github Repo for class</a>
           </div>  
         </div>
       </div>
